@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SilaseZ membantu peternak memantau fermentasi silase selama 21 hari melalui sensor, grafik, peringatan, dan pendampingan pakar."
+    />
+    <meta name="theme-color" content="#176b45" />
+    <meta property="og:title" content="SilaseZ — Fermentasi Silase Lebih Terukur" />
+    <meta
+      property="og:description"
+      content="Pantau suhu, kadar air, pH, dan gas fermentasi silase langsung dari ponsel."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/logo.png" />
+    <title>SilaseZ — Fermentasi Silase Lebih Terukur</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="beranda">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="SilaseZ beranda">
+          <img src="assets/logo.png" alt="Logo SilaseZ" />
+          <span>SilaseZ</span>
+        </a>
+        <div class="nav-links">
+          <a href="#fitur">Fitur</a>
+          <a href="#cara-kerja">Cara kerja</a>
+          <a href="#tentang">Tentang</a>
+        </div>
+        <a class="button button-small" href="https://github.com/yogaananda6677/silasez-profile/releases/latest/download/SilaseZ-v1.0.0.apk">
+          Unduh aplikasi
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Teknologi untuk pakan ternak yang lebih baik</div>
+          <h1>Fermentasi silase<br /><em>lebih terukur.</em></h1>
+          <p class="hero-description">
+            SilaseZ membantu peternak memantau proses fermentasi selama 21 hari melalui data sensor,
+            grafik interaktif, peringatan kondisi, dan pendampingan pakar.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/yogaananda6677/silasez-profile/releases/latest/download/SilaseZ-v1.0.0.apk">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M17.6 9.5 19.4 6.4a.5.5 0 0 0-.2-.7.5.5 0 0 0-.7.2l-1.9 3.2a11 11 0 0 0-9.2 0L5.5 5.9a.5.5 0 0 0-.7-.2.5.5 0 0 0-.2.7l1.8 3.1A9 9 0 0 0 2 17h20a9 9 0 0 0-4.4-7.5ZM7.5 14.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm9 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" /></svg>
+              Unduh untuk Android
+            </a>
+            <a class="text-link" href="#cara-kerja">Lihat cara kerja <span>→</span></a>
+          </div>
+          <p class="download-note">Versi 1.0.0 · Android · APK 65,3 MB</p>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Pratinjau dashboard SilaseZ">
+          <div class="glow"></div>
+          <div class="phone">
+            <div class="phone-speaker"></div>
+            <div class="phone-screen">
+              <div class="app-topbar">
+                <div>
+                  <small>Selamat pagi,</small>
+                  <strong>Peternak SilaseZ</strong>
+                </div>
+                <div class="avatar">P</div>
+              </div>
+              <div class="status-card">
+                <div class="status-row">
+                  <div>
+                    <span class="status-label">FERMENTASI AKTIF</span>
+                    <h3>Hari ke-12</h3>
+                  </div>
+                  <div class="day-ring">12<small>/21</small></div>
+                </div>
+                <div class="progress"><span></span></div>
+                <p>Kondisi perlu perhatian · pantau perubahan pH</p>
+              </div>
+              <div class="sensor-grid">
+                <div class="sensor"><span>SUHU</span><strong>28.0<small>°C</small></strong><i class="safe">Normal</i></div>
+                <div class="sensor"><span>KADAR AIR</span><strong>87.3<small>%</small></strong><i class="safe">Ideal</i></div>
+                <div class="sensor"><span>PH</span><strong>4.12</strong><i class="safe">Ideal</i></div>
+                <div class="sensor"><span>GAS</span><strong>415</strong><i class="safe">Normal</i></div>
+              </div>
+              <div class="chart-card">
+                <div class="chart-heading"><strong>Riwayat pH</strong><span>Hari 11–15</span></div>
+                <svg viewBox="0 0 300 104" role="img" aria-label="Grafik pH fermentasi">
+                  <defs>
+                    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#35a66c" stop-opacity=".28" />
+                      <stop offset="1" stop-color="#35a66c" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gridline" d="M10 20H290M10 52H290M10 84H290" />
+                  <path class="area" d="M10 69 C55 67 64 50 85 52 S125 74 150 59 S196 47 220 55 S258 63 290 48 V94 H10Z" />
+                  <path class="line" d="M10 69 C55 67 64 50 85 52 S125 74 150 59 S196 47 220 55 S258 63 290 48" />
+                  <circle cx="150" cy="59" r="5" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card floating-pakar"><span>✓</span><div><small>Terhubung dengan</small><strong>Pakar Silase</strong></div></div>
+          <div class="floating-card floating-alert"><span>!</span><div><small>Peringatan kondisi</small><strong>Terdeteksi lebih awal</strong></div></div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div class="container trust-grid">
+          <div><strong>21</strong><span>Hari pemantauan</span></div>
+          <div><strong>4</strong><span>Parameter utama</span></div>
+          <div><strong>2×</strong><span>Pembacaan harian</span></div>
+          <div><strong>24/7</strong><span>Akses data</span></div>
+        </div>
+      </section>
+
+      <section class="section container" id="fitur">
+        <div class="section-heading reveal">
+          <div class="eyebrow"><span></span> Satu aplikasi, pemantauan menyeluruh</div>
+          <h2>Data yang mudah dipahami,<br />keputusan yang lebih percaya diri.</h2>
+          <p>Informasi fermentasi disajikan secara ringkas agar peternak dapat bertindak pada waktu yang tepat.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-main reveal">
+            <div class="feature-icon">⌁</div>
+            <div>
+              <span class="card-number">01</span>
+              <h3>Monitoring sensor</h3>
+              <p>Pantau suhu, kadar air, pH, dan perubahan gas dari silo langsung melalui ponsel.</p>
+            </div>
+            <div class="mini-readings">
+              <span><i></i>Suhu <b>28.0°C</b></span>
+              <span><i></i>Kadar air <b>87.3%</b></span>
+              <span><i></i>pH <b>4.12</b></span>
+              <span><i></i>Gas <b>415</b></span>
+            </div>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">↗</div>
+            <span class="card-number">02</span>
+            <h3>Grafik interaktif</h3>
+            <p>Pilih hari pada timeline 1–21 untuk melihat detail pembacaan dan tren kondisi.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">!</div>
+            <span class="card-number">03</span>
+            <h3>Peringatan dini</h3>
+            <p>Dapatkan informasi ketika parameter membutuhkan perhatian sebelum terlambat.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">◎</div>
+            <span class="card-number">04</span>
+            <h3>Pendampingan pakar</h3>
+            <p>Pakar yang terhubung dapat melihat kondisi dan riwayat untuk memberi saran yang relevan.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">◇</div>
+            <span class="card-number">05</span>
+            <h3>Riwayat fermentasi</h3>
+            <p>Seluruh siklus dan pembacaan tersimpan sebagai bahan evaluasi produksi berikutnya.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process-section" id="cara-kerja">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <div class="eyebrow"><span></span> Alur sederhana</div>
+            <h2>Dari silo hingga layar ponsel.</h2>
+            <p>SilaseZ mengubah pembacaan sensor menjadi informasi yang siap digunakan.</p>
+          </div>
+          <div class="steps">
+            <div class="step reveal"><span>1</span><div><h3>Hubungkan perangkat</h3><p>Sensor ditempatkan pada silo dan terhubung ke sistem SilaseZ.</p></div></div>
+            <div class="step reveal"><span>2</span><div><h3>Mulai fermentasi</h3><p>Tentukan tanggal mulai dan pantau perkembangan selama 21 hari.</p></div></div>
+            <div class="step reveal"><span>3</span><div><h3>Pantau dan evaluasi</h3><p>Lihat grafik, peringatan, riwayat, serta saran dari pakar.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="tentang">
+        <div class="about-card reveal">
+          <div>
+            <div class="eyebrow light"><span></span> Tentang SilaseZ</div>
+            <h2>Mendukung peternak melalui teknologi yang membumi.</h2>
+          </div>
+          <div>
+            <p>
+              SilaseZ dikembangkan untuk membuat proses fermentasi pakan lebih transparan dan mudah
+              dievaluasi. Data sensor dan pengetahuan pakar dipertemukan dalam satu pengalaman yang praktis.
+            </p>
+            <a class="button button-light" href="https://github.com/yogaananda6677/silasez-profile/releases/latest/download/SilaseZ-v1.0.0.apk">Unduh SilaseZ</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section">
+        <div class="container download-inner reveal">
+          <img src="assets/logo.png" alt="Ikon aplikasi SilaseZ" />
+          <div>
+            <div class="eyebrow light"><span></span> Tersedia untuk Android</div>
+            <h2>Mulai pantau fermentasi<br />bersama SilaseZ.</h2>
+            <p>Unduh APK versi terbaru dan pasang langsung pada perangkat Android Anda.</p>
+          </div>
+          <a class="button button-light button-download" href="https://github.com/yogaananda6677/silasez-profile/releases/latest/download/SilaseZ-v1.0.0.apk">
+            Unduh APK <span>↓</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <a class="brand" href="#beranda"><img src="assets/logo.png" alt="" /><span>SilaseZ</span></a>
+        <p>© <span id="year"></span> SilaseZ. Teknologi untuk peternakan Indonesia.</p>
+        <a href="https://github.com/yogaananda6677/silasez-profile" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
