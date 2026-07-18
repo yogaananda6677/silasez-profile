@@ -8,7 +8,7 @@ Buka `index.html` langsung di browser atau jalankan static HTTP server dari dire
 
 ## Rilis aplikasi
 
-Tombol unduh mengarah ke aset `SilaseZ-v1.0.5.apk` pada GitHub Release terbaru.
+Tombol unduh mengarah ke aset `SilaseZ-v1.0.6.apk` pada GitHub Release terbaru.
 
 ## Teknologi
 
